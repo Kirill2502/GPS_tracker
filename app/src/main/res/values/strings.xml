@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GPS tracker</string>
+    <string name="home">Главная</string>
+    <string name="tracks">Маршруты</string>
+    <string name="settings">Настройки</string>
+    <string name="location">Location</string>
+    <string name="Update_time">Update time</string>
+    <string name="Update_time_summary">Location update time</string>
+    <string name="track_color">Track color</string>
+    <string name="track_color_summary">Choose track color</string>
+    <string name="location_disabled">GPS Отключен!</string>
+    <string name="location_dialog_message">Пожалуйста, включите GPS в настройках, чтобы использовать эту функцию.</string>
+    <string name="open_settings">Открыть Настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="fon_loc_disabled">Доступ к фоновому местоположению заблокирован</string>
+    <string name="fon_loc_dialog_message">Чтобы включить фоновый доступ, перейдите в настройки приложения.</string>
+    <string name="delete_track_title">Вы действительно хотите удалить трек?</string>
+    <string name="delete_track">Удалить</string>
+</resources>

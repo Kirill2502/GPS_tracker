@@ -1,42 +1,60 @@
+# -----------------------------
 # Gradle
+# -----------------------------
 .gradle/
 build/
 */build/
 
-# Local configuration file (SDK path, etc)
+# -----------------------------
+# Local config
+# -----------------------------
 local.properties
 
-# Log files
+# -----------------------------
+# Android Studio / IntelliJ
+# -----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# -----------------------------
+# Logs
+# -----------------------------
 *.log
 
-# Android Studio
-/.idea/
-/.idea/*
+# -----------------------------
+# Generated files
+# -----------------------------
+captures/
+.externalNativeBuild/
+.cxx/
 
-# User-specific files
-*.iml
-*.hprof
-
-# Kotlin specific
+# -----------------------------
+# Kotlin
+# -----------------------------
 *.kotlin_module
 
-# Generated files
-captures/
-output.json
+# -----------------------------
+# Keystore 
+# -----------------------------
+*.jks
+*.keystore
 
-# Gradle Wrapper
-gradle-wrapper.jar
+# -----------------------------
+# Google Services 
+# -----------------------------
+google-services.json
 
-# APKs, app bundles
+# -----------------------------
+# APK / Bundle
+# -----------------------------
 *.apk
 *.ap_
 *.aab
 
-# Proguard
-/proguard-rules.pro
-
-# MacOS
+# -----------------------------
+# OS
+# -----------------------------
 .DS_Store
-
-# Windows
 Thumbs.db

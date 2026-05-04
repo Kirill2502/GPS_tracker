@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GPSTracker">
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".location.LocationService"
+            android:name=".data.services.LocationService"
             android:foregroundServiceType="location"
             android:enabled="true" />
         <meta-data

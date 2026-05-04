@@ -35,7 +35,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="10dp"
             android:fontFamily="@font/anton"
-            android:text="--.-- км"
+            android:text="--.-- м"
             android:textColor="#0A5C81"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
